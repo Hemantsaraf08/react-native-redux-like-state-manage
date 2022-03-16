@@ -9,3 +9,5 @@
 ### Also we learn how to put icons in header of screen (Refer: src/screens/IndexScreen.js and src/screens/ShowScreen.js ==> navigationOptions)
 
 ### And how to navigate after form submit (using Callback navigation fn. refer src/screens/EditScreen.js ==> navigation.pop() and navigation.navigate('string')
+
+### Note the use of Navigation lifecycle event ==> didFocus that we used in IndexScreen.js to know that the  component has mounted again as actually component is not unmounted in react native
